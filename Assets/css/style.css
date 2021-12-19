@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: darkblue;
     background-color: white;
 }
@@ -19,6 +19,11 @@ h1 {
 h2 {
     text-align:right;
     font-size: 1.5rem;
+}
+
+h3 {
+    color: white;
+    background-color: darkblue;
 }
 
 p {
@@ -55,7 +60,6 @@ li {
 
 footer li {
     margin: 0 5%;
-    background-color: darkorange;
 }
 
 footer ul {
@@ -63,8 +67,7 @@ footer ul {
 }
 
 .projects div {
-    border: 1px solid black;
-    padding: 10px;
+    border: 3px solid darkblue;
     display: flex;
 }
 
@@ -75,14 +78,32 @@ footer ul {
 .smallbox {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px
+    margin: 0px 20px 20px 0px;
 }
 
 .box1 {
-    width: 90%;
+    flex: 95%;
+    min-height: 250px;
+    margin-bottom: 20px;
 }
 
 .box {
-    width: 45%;
+    flex: 45%;
+    min-height: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px
 }
 
+.title {
+    background-color: darkblue;
+    padding: 5px 15px;
+    position: relative;
+    bottom: -10px;
+    height: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .box {
+        width: 95%;
+    }
+}
