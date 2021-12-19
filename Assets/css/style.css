@@ -1,0 +1,88 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    background-color: white;
+}
+
+header {
+    color: darkblue;
+    margin: 0px 0px 30px 0px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    background-color: darkgray;
+    border: 2px solid darkblue;
+    padding: 30px;
+}
+
+h2 {
+    text-align:right;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    margin: 0px 10px 20px 10px;
+    padding: 20px;
+}
+
+.side {
+    border-right: 4px solid darkblue;
+    width: 25%;
+}
+
+.right {
+    width: 70%;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+footer li {
+    margin: 0 5%;
+    background-color: darkorange;
+}
+
+footer ul {
+    text-align: center;
+}
+
+.projects div {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+.projects {
+    width: 70%;
+}
+
+.smallbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px
+}
+
+.box1 {
+    width: 90%;
+}
+
+.box {
+    width: 45%;
+}
+
